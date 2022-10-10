@@ -2,7 +2,7 @@ import requests
 
 
 def get_my_token(address):
-    url = f'https://deep-index.moralis.io/api/v2/{address}/nft?chain=ropsten&format=decimal'
+    url = f'https://deep-index.moralis.io/api/v2/{address}/nft?chain=goerli&format=decimal'
     headers = {
         "accept": "application/json",
         "X-API-Key": "wvthmDqYNaHvYE7e0G6AOmkDBI5JzzhcP0BPAoirhGUh05uJleYdMspcZcyKOIWh"

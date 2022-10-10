@@ -1,7 +1,7 @@
 echo "\n-------------------------------"
 echo "Setting up Python Virtual ENV"
 echo "-------------------------------\n"
-python3 -m venv venv
+python -m venv venv
 source venv/bin/activate
 echo "\n-------------------------------"
 echo "Downloading dependencies..."
