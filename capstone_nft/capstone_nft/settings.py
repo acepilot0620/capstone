@@ -82,8 +82,12 @@ WSGI_APPLICATION = 'capstone_nft.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'test_db',
+        'USER': 'test_user',
+        'PASSWORD': '1234',
+        'HOST': '3.17.204.20',
+        'PORT': '5432',
     }
 }
 
